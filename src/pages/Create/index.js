@@ -2,11 +2,11 @@ import { useTranslation } from 'react-i18next';
 import './styles.scss';
 
 const Create = () => {
-    const { t } = useTranslation();
+    const { t } = useTranslation("create");
 
     return (
         <div className="container">
-            <h1>{t("create.title")}</h1>
+            <h1>{t("title")}</h1>
         </div>
     );
 }

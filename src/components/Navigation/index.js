@@ -5,16 +5,18 @@ import './styles.scss';
 
 const Navigation = () => {
     const { t } = useTranslation();
+    const links = t("navigation", { returnObjects: true });
 
     return (
         <nav>
             <ul>
-                <li>
-                    <Link to="/">{t("home.title")}</Link>
-                </li>
-                <li>
-                    <Link to="/create">{t("create.title")}</Link>
-                </li>
+                {
+                    Object.entries(links).map(([key, value], index) => (
+                        <li key={`${key}-${index}`}>
+                            <Link to={key}>{value}</Link>
+                        </li>
+                    ))
+                }
             </ul>
         </nav>
     );

@@ -1,8 +1,6 @@
 {
-    "home": {
-        "title":"Home"
-    },
-    "create": {
-        "title":"Create"
+    "navigation": {
+        "home":"Home",
+        "create": "Create"
     }
-  }
+}
