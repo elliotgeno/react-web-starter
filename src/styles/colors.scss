@@ -1,0 +1,102 @@
+/*
+  Screen Sizes (Media Queries)
+*/
+$screensize-widescreen: 1200px;
+$screensize-mobile: 960px;
+
+// Shell Color Palette: https://ibm.ent.box.com/file/786452668275
+
+// Primary Color Palette
+$shell-yellow: #FBCE07;
+$shell-yellow-80: #FCD839;
+$shell-yellow-60: #FDE26A;
+$shell-yellow-40: #FDEB9C;
+$shell-yellow-20: #FEF5CD;
+
+$shell-red: #DD1D21;
+$shell-red-80: #E44A4D;
+$shell-red-60: #EB777A;
+$shell-red-40: #F1A5A6;
+$shell-red-20: #F8D2D3;
+
+$shell-white: #fff;
+
+
+// Secondary Color Palette
+$shell-blue-dark: #003C88;
+$shell-blue-dark-80: #3363A0;
+$shell-blue-dark-60: #668AB8;
+$shell-blue-dark-40: #99B1CF;
+$shell-blue-dark-20: #CCD8E7;
+
+$shell-blue-mid: #009EB4;
+$shell-blue-mid-80: #33B1C3;
+$shell-blue-mid-60: #66C5D2;
+$shell-blue-mid-40: #99D8E1;
+$shell-blue-mid-20: #CCECF0;
+
+$shell-blue-light: #89CFDC;
+$shell-blue-light-80: #A1D9E3;
+$shell-blue-light-60: #B8E2EA;
+$shell-blue-light-40: #D0ECF1;
+$shell-blue-light-20: #E7F5F8;
+
+$shell-green-dark: #008443;
+$shell-green-dark-80: #339699;
+$shell-green-dark-60: #66B58E;
+$shell-green-dark-40: #99CEB4;
+$shell-green-dark-20: #CCE6D9;
+
+$shell-green-light: #BED50F;
+$shell-green-light-80: #CBDD3F;
+$shell-green-light-60: #D8E66F;
+$shell-green-light-40: #E5EE9F;
+$shell-green-light-20: #F2F7CF;
+
+$shell-orange: #EB8705;
+$shell-orange-80: #EF9F37;
+$shell-orange-60: #F3B769;
+$shell-orange-40: #F7CF9B;
+$shell-orange-20: #FBE7CD;
+
+$shell-brown: #743410;
+$shell-brown-80: #905D40;
+$shell-brown-60: #AC8570;
+$shell-brown-40: #C7AE9F;
+$shell-brown-20: #E3D6CF;
+
+
+$shell-sand: #FFEAC2;
+$shell-sand-80: #FFEECE;
+$shell-sand-60: #FFF2DA;
+$shell-sand-40: #FFF7E7;
+$shell-sand-20: #FFFBF3;
+
+$shell-lilac: #BA95BE;
+$shell-lilac-80: #C8AACB;
+$shell-lilac-60: #D6BFD8;
+$shell-lilac-40: #C1A3C1;
+$shell-lilac-20: #E0D1E0;
+
+$shell-purple: #641964;
+$shell-purple-80: #834783;
+$shell-purple-60: #A275A2;
+$shell-purple-40: #C1A3C1;
+$shell-purple-20: #E0D1E0;
+
+
+// Neutral Color Palette
+
+$shell-grey-pale-webbg: #F7F7F7; // (For web and mobile only. Used when a background contrast is needed.
+$shell-grey-pale: #D9D9D9;
+$shell-grey-light: #A6A6A6;
+$shell-grey-mid: #7F7F7F;
+$shell-grey-dark: #595959;
+$shell-grey-dark-very: #404040;
+
+$shell-menu-grey: #979797;
+
+
+//Neutral Color - Blacks
+$shell-black: #000000; //small text - Black should not be used for larger headlines
+$pantone-black: #141414; //All areas apart from small text

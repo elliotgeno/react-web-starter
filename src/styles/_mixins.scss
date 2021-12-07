@@ -1,0 +1,66 @@
+@import "styles/_breakpoints.scss";
+
+
+// DESKTOP
+$h1-desktop:52;
+$h2-desktop:45;
+$h3-desktop:40;
+$h4-desktop:35;
+$h5-desktop:30;
+$h6-desktop:25;
+
+$body-desktop:25;
+
+
+// MOBILE
+$h1-mobile: 40;
+$h2-mobile: 34;
+$h3-mobile: 29;
+$h4-mobile: 25;
+$h5-mobile: 21;
+$h6-mobile: 18;
+
+$body-mobile: 16;
+
+$horizontal-mobile: 20;
+$vertical-mobile:30;
+$small:10;
+$medium:20;
+$large:30;
+
+// padding mixin
+
+@mixin padding($minY, $maxY, $minX, $maxX) {
+	@include interpolate($padding-top: $minY $maxY,
+		$padding-bottom: $minY $maxY,
+		$padding-left: $minX $maxX,
+		$padding-right: $minX $maxX);
+}
+
+@mixin padding-horizontal($min, $max) {
+	@include interpolate($padding-left: $min $max,
+		$padding-right: $min $max);
+}
+
+@mixin padding-vertical($min, $max) {
+	@include interpolate($padding-top: $min $max,
+		$padding-bottom: $min $max);
+}
+
+// margin mixin
+@mixin margin($minY, $maxY, $minX, $maxX) {
+	@include interpolate($margin-top: $minY $maxY,
+		$margin-bottom: $minY $maxY,
+		$margin-left: $minX $maxX,
+		$margin-right: $minX $maxX);
+}
+
+@mixin margin-horizontal($min, $max) {
+	@include interpolate($margin-left: $min $max,
+		$margin-right: $min $max);
+}
+
+@mixin margin-vertical($min, $max) {
+	@include interpolate($margin-top: $min $max,
+		$margin-bottom: $min $max);
+}

@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'shell-light';
+    src: url('../assets/fonts/shell-light.ttf') format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shell-light-italic';
+    src: url('../assets/fonts/shell-light-italic.ttf') format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'shell-condensed-light';
+    src: url('../assets/fonts/shell-condensed-light.ttf') format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'shell-book';
+    src: url('../assets/fonts/shell-book.ttf') format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shell-book-italic';
+    src: url('../assets/fonts/shell-book-italic.ttf') format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'shell-medium';
+    src: url('../assets/fonts/shell-medium.ttf') format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shell-medium-italic';
+    src: url('../assets/fonts/shell-medium-italic.ttf') format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'shell-condensed-medium';
+    src: url('../assets/fonts/shell-condensed-medium.ttf') format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'shell-heavy';
+    src: url('../assets/fonts/shell-heavy.ttf') format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'shell-bold';
+    src: url('../assets/fonts/shell-bold-700.ttf') format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shell-condensed-bold';
+    src: url('../assets/fonts/shell-condensed-bold.ttf') format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+// 100
+.shell-light {
+    font-family: 'shell-light', Arial, Roboto, Helvetica, sans-serif;
+}
+
+.shell-light-italic {
+    font-family: 'shell-light-italic', Arial, Roboto, Helvetica, sans-serif;
+}
+
+.shell-condensed-light {
+    font-family: 'shell-condensed-light', Arial, Roboto, Helvetica, sans-serif;
+}
+
+// 200
+.shell-book {
+    font-family: 'shell-book', Arial, Roboto, Helvetica, sans-serif;
+}
+
+.shell-book-italic {
+    font-family: 'shell-book-italic', Arial, Roboto, Helvetica, sans-serif;
+}
+
+// 300
+.shell-medium {
+    font-family: 'shell-medium', Arial, Roboto, Helvetica, sans-serif;
+}
+
+.shell-medium-italic {
+    font-family: 'shell-medium-italic', Arial, Roboto, Helvetica, sans-serif;
+}
+
+.shell-condensed-medium {
+    font-family: 'shell-condensed-medium', Arial, Roboto, Helvetica, sans-serif;
+}
+
+// 500
+.shell-heavy {
+    font-family: 'shell-heavy', Arial, Roboto, Helvetica, sans-serif;
+}
+
+// 700
+.shell-bold {
+    font-family: 'shell-bold', Arial, Roboto, Helvetica, sans-serif;
+}
+
+.shell-condensed-bold {
+    font-family: 'shell-condensed-bold', Arial, Roboto, Helvetica, sans-serif;
+}
